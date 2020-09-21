@@ -1,0 +1,55 @@
+{
+	"language": "python3",
+	"name": "jk_vcard",
+	"version": "0.2020.9.21",
+	"meta": {
+		"description": "This python module parses (and produces) vCard data as provided in vcf files.",
+		"keywords": [
+			"vcard",
+			"vcf"
+		],
+		"license": "Apache 2.0",
+		"development_status": "alpha",
+		"authors": [
+			{
+				"name": "Jürgen Knauth",
+				"email": "pubsrc@binary-overflow.de"
+			}
+		],
+		"wiki": {
+			"page": "DevDocs:jk_vcard"
+		}
+	},
+	"repositories": [
+		{
+			"type": "github",
+			"user": "jkpubsrc",
+			"project": "python-module-jk-vcard",
+			"devon_publish": false
+		},
+		{
+			"type": "pypi",
+			"project": "jk_vcard",
+			"devon_publish": false
+		}
+	],
+	"source": {
+		"packages": [
+			"jk_vcard"
+		],
+		"extra_data_files": [
+		],
+		"extra_binary_files": [
+		]
+	},
+	"requirements": {
+		"python_packages": [
+			"jk_typing",
+			"jk_version",
+			"jk_utils",
+		],
+		"python_packages_dev": [
+		]
+	}
+}
+
