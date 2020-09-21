@@ -12,7 +12,13 @@ import binascii
 class QuotedPrintable(object):
 
 	@staticmethod
-	def decode(charSequence:str, encoding:str = "utf-8"):
+	def decode(charSequence:str, encoding:str = None):
+		assert isinstance(charSequence, str)
+		if encoding:
+			assert isinstance(encoding, str)
+		else:
+			encoding = "utf-8"
+
 		ret = bytearray()
 
 		i = 0

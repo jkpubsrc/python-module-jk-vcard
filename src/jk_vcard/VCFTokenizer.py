@@ -39,7 +39,7 @@ class VCFTokenizer(object):
 		# parse each line
 
 		for lineNo, contentLine in zip(lineNos, contentLines):
-			parts = contentLine.split(":")
+			parts = contentLine.split(":", 1)
 			if len(parts) != 2:
 				TokenizationError("No colon found!", lineNo, 1)
 

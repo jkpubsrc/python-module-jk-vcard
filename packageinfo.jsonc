@@ -1,15 +1,15 @@
 {
 	"language": "python3",
 	"name": "jk_vcard",
-	"version": "0.2020.9.21",
+	"version": "0.2020.9.21.1",
 	"meta": {
 		"description": "This python module parses (and produces) vCard data as provided in vcf files.",
 		"keywords": [
 			"vcard",
 			"vcf"
 		],
-		"license": "Apache 2.0",
-		"development_status": "alpha",
+		"license": "Apache2",
+		"development_status": "beta",
 		"authors": [
 			{
 				"name": "Jürgen Knauth",

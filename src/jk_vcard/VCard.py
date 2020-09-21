@@ -36,12 +36,28 @@ class VCard(object):
 		self.orgLines = orgLines
 	#
 
+	@property
+	def itemKeys(self) -> list:
+		mySet = set()
+		for item in self.data:
+			mySet.add(item.key)
+		return sorted(mySet)
+	#
+
 	@jk_typing.checkFunctionSignature()
 	def getItem(self, key:str):
 		for item in self.data:
 			if item.key == key:
 				return item
 		return None
+	#
+
+	@jk_typing.checkFunctionSignature()
+	def hasItem(self, key:str) -> bool:
+		for item in self.data:
+			if item.key == key:
+				return True
+		return False
 	#
 
 	@jk_typing.checkFunctionSignature()
