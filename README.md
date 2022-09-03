@@ -8,7 +8,7 @@ This python module parses (and produces) vCard data as provided in vcf files.
 
 Information about this module can be found here:
 
-* [github.org](https://github.com/jkpubsrc/....)
+* [github.com](https://github.com/jkpubsrc/python-module-jk-vcard)
 * [pypi.python.org](https://pypi.python.org/pypi/jk_vcard)
 
 How to use this module
